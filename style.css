@@ -8,3 +8,32 @@ button {
 img {
     float: right;
 }
+nav{
+    text-align: center;
+}
+
+li{
+    font-size: 40px;
+    display: inline;
+    margin: 10px;
+    
+}
+
+#title{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center
+}
+
+#text{
+    text-align: center;
+}
+
+body{
+    background-color: black;
+    background-image: url("images/map of saisjo.jpg");
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position-x: 50%;
+    
+}
+

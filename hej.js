@@ -1,10 +1,15 @@
+var txtFile = new XMLHttpRequest();
+var allText = "";
+txtFile.onreadystatechange = function () {
+    if (txtFile.readyState === XMLHttpRequest.DONE && txtFile.status == 200) {
+        allText = txtFile.responseText;
+        allText = allText.split("\n").join("<br>");
+    }
 
+    document.getElementById('text').innerHTML = "<p>" + allText + "</p>";
 
-function myFunction(navn){
-    document.write( "hej med dig, "+ navn);
-    
 }
+txtFile.open("GET", 'about.txt', true);
+txtFile.send(null);
 
-
-myFunction("morten");
 
