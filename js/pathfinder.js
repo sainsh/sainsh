@@ -1,4 +1,4 @@
-
+//verdens beskrivelse
     var worldTxtFile = new XMLHttpRequest();
     var worldText = "";
     worldTxtFile.onreadystatechange = function () {
@@ -10,11 +10,26 @@
         document.getElementById('world').innerHTML = "<p>" + worldText + "</p>";
 
     }
-    worldTxtFile.open("GET", 'world.txt', true);
+    worldTxtFile.open("GET", 'text/world.txt', true);
     worldTxtFile.send(null);
 
 
+//lasse
+    var lasseFile = new XMLHttpRequest();
+    var lasseText = "";
+    lasseFile.onreadystatechange = function () {
+        if (lasseFile.readyState === XMLHttpRequest.DONE && lasseFile.status == 200) {
+            lasseText = lasseFile.responseText;
+            lasseText = lasseText.split("\n").join("<br>");
+        }
 
+        document.getElementById('lasse').innerHTML = "<p>" + lasseText + "</p>";
+
+    }
+    lasseFile.open("GET", 'text/lasse.txt', true);
+    lasseFile.send(null);
+
+//marcus
     var txtFile = new XMLHttpRequest();
     var allText = "";
     txtFile.onreadystatechange = function () {
@@ -23,10 +38,10 @@
             allText = allText.split("\n").join("<br>");
         }
 
-        document.getElementById('lasse').innerHTML = "<p>" + allText + "</p>";
+        document.getElementById('marcus').innerHTML = "<p>" + allText + "</p>";
 
     }
-    txtFile.open("GET", 'lasse.txt', true);
+    txtFile.open("GET", 'text/marcus.txt', true);
     txtFile.send(null);
 
 

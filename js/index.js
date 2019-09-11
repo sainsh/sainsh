@@ -9,7 +9,7 @@ txtFile.onreadystatechange = function () {
     document.getElementById('text').innerHTML = "<p>" + allText + "</p>";
 
 }
-txtFile.open("GET", 'about.txt', true);
+txtFile.open("GET", 'text/about.txt', true);
 txtFile.send(null);
 
 

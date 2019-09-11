@@ -2,14 +2,6 @@
 
 
 #container{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: auto;
-    grid-template-areas:
-        "header header header header" 
-        "nav nav nav nav"
-        "main main sidebar sidebar"
-        "footer footer footer footer";
     font-family: aladin;
 }
 
@@ -30,29 +22,24 @@ nav{
 }
 
 #title{
-    grid-area: header;
-    text-align: center;
     color: white;
+    text-align: center
 }
 
 #text{
     text-align: center;
     color: white;
-    grid-area: main;
+    font-size: 40px
 }
 p{
     color:white;
-    font-size: 30px;
 }
 
 
 #background{
-    background-image: url('images/saisjo.jpg');
+    background-image: url('/sainsh/images/saisjo.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
-    grid-column: 1/5;
-    grid-row: 1/4;
-    margin-top: -10px
 }
 a{
     color: white;
@@ -63,13 +50,9 @@ a:hover{
 a:visited{
     color: lightgray; 
 }
-
-.world{
-    grid-area: main;
-    max-width: 40%;
-}
-
 .characters{
-    grid-area: sidebar;
-    max-width: 40%;
+    font-size:25px;
+}
+.world{
+    font-size: 40px;
 }
