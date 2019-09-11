@@ -1,22 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Aladin');
 
-button {
-    float: left;
-    width: 100px;
-    height: 20px;
 
+#container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header header header header" 
+        "nav nav nav nav"
+        "main main sidebar sidebar"
+        "footer footer footer footer";
+    font-family: aladin;
 }
+
 body{
     background-color: black;
 }
 
 nav{
-    grid-row: 2;
-    grid-column: 3;
+    grid-area: nav;
     text-align: center;
 }
 
-li{
+.nav{
     font-size: 40px;
     display: inline;
     margin: 10px;
@@ -24,8 +30,7 @@ li{
 }
 
 #title{
-    grid-row: 1;
-    grid-column: 3;
+    grid-area: header;
     text-align: center;
     color: white;
 }
@@ -33,29 +38,38 @@ li{
 #text{
     text-align: center;
     color: white;
-    grid-row: 3;
-    grid-column: 3;
+    grid-area: main;
+}
+p{
+    color:white;
+    font-size: 30px;
 }
 
-#container{
-    display: grid;
-    grid-template-columns: 10% 10% 60% 10% 10%;
-    grid-template-rows: 50px 1000px 400px;
-    font-family: aladin;
-}
 
 #background{
     background-image: url('images/saisjo.jpg');
     background-repeat: no-repeat;
-    background-size: 75%;
-    background-position-x: 50%;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end: 5;
+    background-size: 100%;
+    grid-column: 1/5;
+    grid-row: 1/4;
     margin-top: -10px
 }
 a{
     color: white;
-    
+}
+a:hover{
+    background: gray;
+}
+a:visited{
+    color: lightgray; 
+}
+
+.world{
+    grid-area: main;
+    max-width: 40%;
+}
+
+.characters{
+    grid-area: sidebar;
+    max-width: 40%;
 }
