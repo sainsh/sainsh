@@ -53,6 +53,7 @@ li{
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 5;
+    margin-top: -10px
 }
 a{
     color: white;
