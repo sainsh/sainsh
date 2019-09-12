@@ -52,6 +52,8 @@ a:visited{
 }
 .characters{
     font-size:25px;
+    display: inline;
+    max-width: 40%;
 }
 .world{
     font-size: 40px;
