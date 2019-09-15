@@ -14,46 +14,54 @@
 
 <body>
     <div class="container-fluid" id="container">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Sainsh.com</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" style="font-style: italic">About Me</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="pathfinder.html">Pathfinder Campaign
+                                <span class="sr-only">(current) </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         <div id="background">
             <div class="row">
-                <div class="col-3"></div>
-                <div class="col-6">
-                    <h1 id="title">Pathfinder Campaign</h1>
+                <div class="col-1"></div>
+                <div class="col-5">
+                    <div class="world" id="world"> </div>
                 </div>
-                <div class="col-3"></div>
-            </div>
-            <div class="row">
-                <div class="col-3"></div>
-                <div class="col-6">
-                    <nav>
-                        <ul>
-                            <li class="nav"><a href="index.html" style="font-style: italic">About Me</a></li>
-                            <li class="nav"><a href="pathfinder.html">Pathfinder Campaign</a></li>
-                            <li class="nav"><a href="portfolio.html">Portfolio</a></li>
-                        </ul>
-                    </nav>
+                <div class="col-5">
+                    <div class="characters">
+                        <p>Characters:</p>
+                        <button type="button" class="btn btn-info" data-toggle="collapse"
+                            data-target="#lasse">Lasse</button>
+                        <div id="lasse" class="collapse"></div>
+                        <button type="button" class="btn btn-info" data-toggle="collapse"
+                            data-target="#stoffer">Stoffer</button>
+                        <div id="stoffer" class="collapse"></div>
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#hp">HP</button>
+                        <div id="hp" class="collapse"></div>
+                        <button type="button" class="btn btn-info" data-toggle="collapse"
+                            data-target="#kath">Kath</button>
+                        <div id="kath" class="collapse"></div>
+                        <button type="button" class="btn btn-info" data-toggle="collapse"
+                            data-target="#marcus">Marcus</button>
+                        <div id="marcus" class="collapse"></div>
+                    </div>
                 </div>
-                <div class="col-3"></div>
-            </div>
-            <div class="row">
-                <div class="col-6">
-                <div class="world" id="world"> </div>
-            </div>
-            <div class="col-6">
-                <div class="characters">
-                    <ul>
-                        <li>
-                            <div id="lasse"></div>
-                        </li>
-                        <li>
-                            <div id="stoffer"></div>
-                        </li>
-                        <li id="hp"></li>
-                        <li id="kath"></li>
-                        <li id="marcus"></li>
-                    </ul>
-                </div>
-            </div>
+                <div class="col-1"></div>
             </div>
 
 

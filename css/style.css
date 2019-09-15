@@ -9,18 +9,6 @@ body{
     background-color: black;
 }
 
-nav{
-    grid-area: nav;
-    text-align: center;
-}
-
-.nav{
-    font-size: 40px;
-    display: inline;
-    margin: 10px;
-    
-}
-
 #title{
     color: white;
     text-align: center
@@ -37,21 +25,14 @@ p{
 
 
 #background{
-    background-image: url('/sainsh/images/saisjo.jpg');
+    background-image: url('/images/saisjo.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
 }
-a{
-    color: white;
-}
-a:hover{
-    background: gray;
-}
-a:visited{
-    color: lightgray; 
-}
 .characters{
     font-size:25px;
+    display: inline;
+    max-width: 40%;
 }
 .world{
     font-size: 40px;
