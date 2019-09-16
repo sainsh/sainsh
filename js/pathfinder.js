@@ -1,47 +1,28 @@
-//verdens beskrivelse
-    var worldTxtFile = new XMLHttpRequest();
-    var worldText = "";
-    worldTxtFile.onreadystatechange = function () {
-        if (worldTxtFile.readyState === XMLHttpRequest.DONE && worldTxtFile.status == 200) {
-            worldText = worldTxtFile.responseText;
-            worldText = worldText.split("\n").join("<br>");
-        }
+var texts = ["world", "lasse", "stoffer", "hp", "kath", "marcus"];
+var i;
+var textFile;
+var allText;
 
-        document.getElementById('world').innerHTML = "<p>" + worldText + "</p>";
+for (i = 0; i < texts.length; i++) {
+    readFile(texts[i]);
 
-    }
-    worldTxtFile.open("GET", 'text/world.txt', true);
-    worldTxtFile.send(null);
+}
 
+function readFile(fileName) {
 
-//lasse
-    var lasseFile = new XMLHttpRequest();
-    var lasseText = "";
-    lasseFile.onreadystatechange = function () {
-        if (lasseFile.readyState === XMLHttpRequest.DONE && lasseFile.status == 200) {
-            lasseText = lasseFile.responseText;
-            lasseText = lasseText.split("\n").join("<br>");
-        }
-
-        document.getElementById('lasse').innerHTML = "<p>" + lasseText + "</p>";
-
-    }
-    lasseFile.open("GET", 'text/lasse.txt', true);
-    lasseFile.send(null);
-
-//marcus
-    var txtFile = new XMLHttpRequest();
+    var textFile = new XMLHttpRequest();
     var allText = "";
-    txtFile.onreadystatechange = function () {
-        if (txtFile.readyState === XMLHttpRequest.DONE && txtFile.status == 200) {
-            allText = txtFile.responseText;
+    textFile.onreadystatechange = function () {
+        if (textFile.readyState === XMLHttpRequest.DONE && textFile.status == 200) {
+            allText = textFile.responseText;
             allText = allText.split("\n").join("<br>");
         }
 
-        document.getElementById('marcus').innerHTML = "<p>" + allText + "</p>";
+        document.getElementById(fileName).innerHTML = "<p>" + allText + "</p>";
+
 
     }
-    txtFile.open("GET", 'text/marcus.txt', true);
-    txtFile.send(null);
+    textFile.open("GET", "text/" + fileName + ".txt", true);
+    textFile.send(null);
 
-
+}
