@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Nixie+One&display=swap');
+
+.background{
+    background-color: #f6f8f9;
+    width: 1040px;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Nixie One', cursive;
+}
+h2{
+    font-family: 'Nixie One', cursive;
+}
+.top{
+    height: 80px;
+}
+
+.bg-white{
+    background-color: white;
+    margin-left: 20px;
+}
+
+.hr-margin{
+    margin-left: 110px;
+}
