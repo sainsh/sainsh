@@ -41,3 +41,18 @@ p{
     text-align: justify;
     font-size: 30px;
 }
+input{
+    width: 10vw;
+    border-radius: 2vw;
+    text-align: center;
+}
+.top{
+    height: 10vh;
+}
+
+#res{
+    text-align: right;
+}
+.right{
+    float:right;
+}
