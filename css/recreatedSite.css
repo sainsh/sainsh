@@ -17,7 +17,6 @@ h2{
 
 .bg-white{
     background-color: white;
-    margin-left: 20px;
 }
 
 .hr-margin{
@@ -32,8 +31,8 @@ h2{
     background-color: darkgray;
 }
 
-.w-1040{
-    width: 1040px;
+.w-70{
+    width: 70vw;
 }
 
 .mg-top-10{
@@ -43,13 +42,26 @@ h2{
 .txt-10{
     font-size: 10px;
 }
-.w-250{
-    width: 250px;
-}
+
 .quote{
     font-size: 20px;
     font-weight: bold;
 }
-.w-800{
-    width: 900px;
+.text-left{
+    text-align: left;
+}
+.hr-margin-l{
+    margin-left: 8.5vw;
+}
+.h-20{
+    height: 20px;
+}
+.w-25{
+    width: 1000px;
+}
+.btn-txt-size{
+    font-size: 20px;
+}
+.btn-h{
+    height: 3vw;
 }
