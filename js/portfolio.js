@@ -10,19 +10,12 @@ for (i = 0; i < texts.length; i++) {
 
 function readFile(fileName) {
 
-    var textFile = new XMLHttpRequest();
-    var allText = "";
-    textFile.onreadystatechange = function () {
-        if (textFile.readyState === XMLHttpRequest.DONE && textFile.status == 200) {
-            allText = textFile.responseText;
-            allText = allText.split("\n").join("<br>");
-        }
+   fetch(`./text/${fileName}.txt`)
+   .then(res => res.text())
+   .then((data) =>
+    document.getElementById(fileName).innerHTML = `<p>${data}</p>`);
 
-        document.getElementById(fileName).innerHTML = "<p>" + allText + "</p>";
-
-
-    }
-    textFile.open("GET", "text/" + fileName + ".txt", true);
-    textFile.send(null);
+       
+   
 
 }
