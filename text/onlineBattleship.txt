@@ -1,14 +1,14 @@
-Online Battleship
+Online Battleship<br><br>
 
-As part of a network project we, a group of 4, decided
-to develop an online battleship game in a server/client
-pattern. The Sever runs the game and for each 2 clients
-that connects to the server a game between the 2 starts
-The clients are dumb, they don't have any game logic
-which makes the game more secure this one couldn't learn
-much from opening up the cient and looking inside. This
-also applies to the messages sent between clients and 
-server. The messages consists of mostly simple data
-types and an array.
-We uploaded the source code to github 
-<a href="https://github.com/sainsh/OnlineBattleship">github link</a>
+As part of a network project we, a group of 4, decided<br>
+to develop an online battleship game in a server/client<br>
+pattern. The Sever runs the game and for each 2 clients<br>
+that connects to the server a game between the 2 starts<br>
+The clients are dumb, they don't have any game logic<br>
+which makes the game more secure this one couldn't learn<br>
+much from opening up the cient and looking inside. This<br>
+also applies to the messages sent between clients and <br>
+server. The messages consists of mostly simple data<br>
+types and an array.<br>
+We uploaded the source code to github <br>
+<a href="https://github.com/sainsh/OnlineBattleship">github link</a><br>

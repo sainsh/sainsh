@@ -1,55 +1,55 @@
-ting i () er hans Alt form form
+ting i () er hans Alt form form<br>
 
 Navn: Sima Yi (Huang Shao)
 
-race: Kitsune (len)
+race: Kitsune (lehn)
 
-alder: 28 (56)
+alder: 28 (56)<br>
 
-udseende: 
+udseende: <br>
 Snehvid pels med røde mærkeringer i hovedet og på sine haler, har pt 3 haler.
 Han er iført en rød og hvid robe og har en stav som også er en lanterne.
 (En gammel mand med hvidt skæg i "klassisk kinesisk stil" iført en simpel rishat 
-og med hvide robes og sandaler har stadig lanterne staven)
+og med hvide robes og sandaler har stadig lanterne staven)<br>
 
-ting du er god til:
+ting du er god til:<br>
 At være "mentor" for folk
 At komme med positiv insigt 
-At være forstående og til at kommunikere med folk
+At være forstående og til at kommunikere med folk<br>
 
-ting du er dårlig til:
+ting du er dårlig til:<br>
 At skade folk fysisk
 At håndtere sure masser som er uforstående
-At tage hurtige beslutninger
+At tage hurtige beslutninger<br>
 
-personligheds træk(kort): 
+personligheds træk(kort): <br>
 Venlig
 Forstående
 Rolig
-Mystisk
+Mystisk<br>
 
-familie: 
+familie: <br>
 Far(Sima Xing(død)), Mor(lady Liao)  og 3 søskende (1 lillesøster (Sima Ren),
-en tvillingesøster (Sima Yu) og en storebror(Sima Qiang))
+en tvillingesøster (Sima Yu) og en storebror(Sima Qiang))<br>
 
-bekendte(både venner og fjender):
+bekendte(både venner og fjender):<br>
 Venner: Hp's karakter
-Fjender: Folk der ved han er en kitsune er ikke så glade for ham
+Fjender: Folk der ved han er en kitsune er ikke så glade for ham<br>
 
-favorit ting: At meditere
+favorit ting: At meditere<br>
 
-ting du er bange for: Det uvidste
+ting du er bange for: Det uvidste<br>
 
-hvad er over grænsen ( fx at slå et barn ihjel): 
-At gøre noget krimminelt med mindre det er rigtig nødvendigt
+hvad er over grænsen ( fx at slå et barn ihjel): <br>
+At gøre noget krimminelt med mindre det er rigtig nødvendigt<br>
 
-ting du vil opnå i gruppen: 
-At opleve verden og finde ud af hvad hans vision betød.
+ting du vil opnå i gruppen: <br>
+At opleve verden og finde ud af hvad hans vision betød.<br>
 
-langtsigtede mål: 
-At skabe en gud
+langtsigtede mål: <br>
+At skabe en gud<br>
 
-baggrund(hvor er du fra og hvad er der sket dig, kort): 
+baggrund(hvor er du fra og hvad er der sket dig, kort): <br>
 Kitsune er en mystisk race der kommer fra bjergene(ork bjergene) hvor de bor i skjulte samfund. 
 De er kendt som at være meget mystiske og er ofte trickstere og shinobi. 
 De har derfor et ry for at sprede uheld og død,
@@ -59,6 +59,6 @@ Hans far døde dog også kort efter af en sygdom og Yi blev sendt til at tjene i
 Da han blev sendt til et lille shrine i [hp's by] fik han en vision.
 Mens han mediterede over denne vision blev byen angrebet af orker,
 som brandte en stor del af byen ned inkl. templet, men blev dog redet af Adventurers. 
-Herefter besluttede han sig for at blive Adventurer for at oppleve verden.
+Herefter besluttede han sig for at blive Adventurer for at oppleve verden.<br>
 
 ____________________________________________________________________________

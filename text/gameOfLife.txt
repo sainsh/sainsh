@@ -1,8 +1,8 @@
-Game of Life
+Game of Life<br><br>
 
-This was a project where we were tasked with
-replicating game of life on our own. Here I
-used javafx to make the GUI. Game of life 
-models growth and death of groups of lifeforms
-The source code can be found here:
-<a href="https://github.com/sainsh/GameOfLife">github link</a>
+This was a project where we were tasked with<br>
+replicating game of life on our own. Here I<br>
+used javafx to make the GUI. Game of life <br>
+models growth and death of groups of lifeforms<br>
+The source code can be found here:<br>
+<a href="https://github.com/sainsh/GameOfLife">github link</a><br>

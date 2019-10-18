@@ -1,20 +1,20 @@
-Consentcoin
+Consentcoin<br>
+<br>
+Consentcoin is an app which organizations and sports clubs can use to ask their members for permission<br>
+ to use pictures of the members or their children for commercial and non-commercial use.<br><br>
 
-Consentcoin is an app which organizations and sports clubs can use to ask their members for permission
- to use pictures of the members or their children for commercial and non-commercial use.
+Consentcoin was developed as part of a group exam project by 3 classmates and I. Our Teacher was the <br>
+customer and or the product owner. They had the idea and cencept and we did the design and <br>
+implementation. As part of this project we used Unified Process to model the project but strayed from<br>
+the plan since our prototype came all to close to a finished product and we skipped construction and <br>
+transistion. <br><br>
 
-Consentcoin was developed as part of a group exam project by 3 classmates and I. Our Teacher was the 
-customer and or the product owner. They had the idea and cencept and we did the design and 
-implementation. As part of this project we used Unified Process to model the project but strayed from
-the plan since our prototype came all to close to a finished product and we skipped construction and 
-transistion. 
+We tried to follow the MWWM model but unfortunately we placed a lot of logic up in the view and gave <br>
+it access to model data, so we didn't suceed in following MWWM.<br><br>
 
-We tried to follow the MWWM model but unfortunately we placed a lot of logic up in the view and gave 
-it access to model data, so we didn't suceed in following MWWM.
+We released the app on google play store.<br>
+<a href="https://play.google.com/store/apps/details?id=com.thomosim.consentcoin&hl=en">play store link</a><br>
+and you can find the source code on github<br>
+<a href="https://github.com/Mools222/Consentcoin">github link</a><br>
 
-We released the app on google play store.
-<a href="https://play.google.com/store/apps/details?id=com.thomosim.consentcoin&hl=en">play store link</a>
-and you can find the source code on github
-<a href="https://github.com/Mools222/Consentcoin">github link</a>
-
-The App is localized for english and danish users
+The App is localized for english and danish users<br>
