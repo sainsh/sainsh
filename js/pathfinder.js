@@ -10,6 +10,6 @@ for (i = 0; i < texts.length; i++) {
 }
 
 function readFileFetch(fileName){
-    fetch(`/text/${fileName}.txt`).then(res => res.text())
+    fetch(`/sainsh/text/${fileName}.txt`).then(res => res.text())
     .then((data) => document.getElementById(fileName).innerHTML = `<p>${data}</p>`);
 }
